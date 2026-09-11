@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AGOA Logistics | Coming Soon</title>
+	<meta name="description" content="AGOA Logistics website coming soon.">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<style>
+		:root{--navy:#07152d;--blue:#2563eb;--cyan:#42b6d3;--white:#fff;--muted:#cbd5e1}
+		*{box-sizing:border-box}
+		html,body{min-height:100%}
+		body{margin:0;background:var(--navy);color:var(--white);font-family:Roboto,"Segoe UI",Arial,sans-serif}
+		.banner{position:relative;display:grid;min-height:100vh;min-height:100svh;place-items:center;overflow:hidden;padding:40px 20px;background:linear-gradient(90deg,rgba(7,21,45,.94),rgba(7,21,45,.66)),url("https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=2200&q=85") center/cover}
+		.banner:before{position:absolute;inset:0;background:linear-gradient(135deg,transparent 0 48%,rgba(37,99,235,.18) 48% 62%,transparent 62%);content:""}
+		.banner-card{position:relative;z-index:1;width:min(780px,100%);padding:clamp(34px,7vw,76px);border:1px solid rgba(255,255,255,.2);background:rgba(7,21,45,.7);box-shadow:0 30px 90px rgba(0,0,0,.35);text-align:center;backdrop-filter:blur(5px)}
+		.logo{display:block;width:94px;height:94px;margin:0 auto 30px;padding:6px;background:var(--white);border-radius:6px;object-fit:contain}
+		.eyebrow{margin:0 0 14px;color:#93c5fd;font-size:.78rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+		h1{margin:0;font-family:Inter,Arial,sans-serif;font-size:clamp(2.8rem,8vw,6.5rem);font-weight:800;letter-spacing:-.06em;line-height:.95}
+		.message{max-width:560px;margin:24px auto 0;color:var(--muted);font-size:clamp(1rem,2vw,1.2rem);line-height:1.7}
+		.rule{width:74px;height:4px;margin:30px auto 0;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+		.footer-note{margin:30px 0 0;color:#94a3b8;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}
+		@media(max-width:768px){.banner{padding:24px 16px}.banner-card{width:min(100%,620px)}h1{font-size:clamp(2.8rem,14vw,4.8rem)}.message{font-size:1rem;line-height:1.6}}
+		@media(max-width:520px){.banner{padding:20px 14px}.banner-card{padding:42px 22px}.logo{width:78px;height:78px;margin-bottom:24px}}
+		@media(max-width:380px){.banner{padding:14px 10px}.banner-card{padding:34px 16px}.logo{width:68px;height:68px;margin-bottom:20px}.eyebrow{font-size:.68rem;letter-spacing:.12em}h1{font-size:2.65rem}.message{margin-top:18px;font-size:.94rem}.rule{margin-top:24px}}
+	</style>
+</head>
+<body>
+	<main class="banner">
+		<section class="banner-card" aria-labelledby="coming-soon-title">
+			<img class="logo" src="https://raw.githubusercontent.com/DalipKumarBatra/agao/main/logo/agoa-logo.png" alt="AGOA">
+			<p class="eyebrow">Reliable Logistics and transport</p>
+			<h1 id="coming-soon-title">Coming Soon</h1>
+			<p class="message">Our new website is currently being prepared. AGOA Logistics will be online soon with reliable freight, transport, tracking, and customer support services.</p>
+			<div class="rule" aria-hidden="true"></div>
+			<p class="footer-note">Safety. Quality. Professionalism.</p>
+		</section>
+	</main>
+</body>
+</html>
